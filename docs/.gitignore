@@ -4,3 +4,8 @@ _site
 .jekyll-metadata
 vendor
 Gemfile.lock
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jekyll's _site directory
+_site/
