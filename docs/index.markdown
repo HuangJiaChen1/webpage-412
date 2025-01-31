@@ -48,7 +48,7 @@ Welcome to my robotics course report! Below, you'll find images and videos docum
 ## Video of 2m Straight Driving
 
 <video width="100%" controls>
-  <source src="/assets/videos/straight-driving.mp4" type="video/mp4">
+  <source src="assets/videos/straight-driving.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
