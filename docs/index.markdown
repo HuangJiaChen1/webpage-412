@@ -11,7 +11,7 @@ Welcome to my robotics course report! Below, you'll find images and videos docum
 
 ## Image of Camera and Motor Signals from Dashboard
 
-![Camera and Motor Signals](/assets/images/camera-motor-signals.jpg)
+![Camera and Motor Signals](assets/images/camera-motor-signals.jpg)
 
 **Explanation**: This image shows the signals captured from the dashboard, showing both the motor signals and the camera signals. In the chart at the top, it shows the speed of the left and right motor. We can see that there is a slight difference between the speed of the two motors. I think this is because before wheel calibration, the two wheels should have the same speed, but after doing wheel calibration we tweeked the speed of the two wheels to make it able to move in a straight line. Below it shows the image of the camera signal, showing us what the robot is looking at, which seems fairly good to me.
 
@@ -19,7 +19,7 @@ Welcome to my robotics course report! Below, you'll find images and videos docum
 
 ## Screenshot of Duckiebot Saying "Hello from MY_ROBOT"
 
-![Duckiebot Screenshot](/assets/images/duckiebot-hello.jpg)
+![Duckiebot Screenshot](assets/images/duckiebot-hello.jpg)
 
 **Explanation**: This screenshot demonstrates the Duckiebot's interface displaying the message "Hello from csc22916", as we can see in the picture, I have successfully built the image using docker, so as using the template in github to build the python program and environments. Lastly, I successfully ran the very simple hello world program on my duckiebot, though struggling at first as you can see, there were many error messages previously :) (RH2 Unit B-2.3).
 
@@ -28,10 +28,10 @@ Welcome to my robotics course report! Below, you'll find images and videos docum
 ## Screenshots of Camera Calibration .yaml Files
 
 ### Intrinsics Calibration
-![Intrinsics Calibration](/assets/images/intrinsics-calibration.jpg)
+![Intrinsics Calibration](assets/images/intrinsics-calibration.jpg)
 
 ### Extrinsics Calibration
-![Extrinsics Calibration](/assets/images/extrinsics-calibration.jpg)
+![Extrinsics Calibration](assets/images/extrinsics-calibration.jpg)
 
 **Explanation**: These screenshots show the `.yaml` files for camera calibration, including intrinsics and extrinsics parameters. The intrinsic parameters describe the internal characteristics of the camera, such as its optical center, focal length, and lens distortion as we can see in the screenshot. These parameters are specific to the camera itself and do not depend on its position or orientation in the world. On the other hand, the extrinsic parameters describe the camera's position and orientation relative to a world coordinate system, as we can see in the screenshot, it consists of a homography matrix, which includes the camera position and orientation informations. These parameters define how the camera is positioned in 3D space. Accurate intrinsic and extrinsic parameters are necessary for performing tasks like lane following.
 
@@ -39,7 +39,7 @@ Welcome to my robotics course report! Below, you'll find images and videos docum
 
 ## Screenshot of Kinematics .yaml File
 
-![Kinematics .yaml File](/assets/images/kinematics-yaml.jpg)
+![Kinematics .yaml File](assets/images/kinematics-yaml.jpg)
 
 **Explanation**: This screenshot displays the kinematics configuration file, which defines the robot's motion parameters. These parameters where likely modified as we do the wheel calibration, these paramters are crucial for us to control the robot's motion.
 
