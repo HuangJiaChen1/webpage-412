@@ -47,10 +47,7 @@ Welcome to my robotics course report! Below, you'll find images and videos docum
 
 ## Video of 2m Straight Driving
 
-<video width="100%" controls>
-  <source src="assets/videos/straight-driving.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://youtube.com/embed/7d23Su7wlAY?feature=share" frameborder="0" allowfullscreen></iframe>
 
 **Explanation**: This video demonstrates the robot driving straight for 2 meters, showcasing its motion control capabilities. We can see that it is drifting off a bit to the left, but that is OK for our duckiebot, the small drift is acceptable since it is hard for it to go perfectly straight, there are to many external factors that are impacting its performance, I do think that the smoothness of the mattress is something that makes it not working as properly as expected.
 
